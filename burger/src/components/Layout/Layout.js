@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Auxilary from '../../hoc/Auxilary';
-import Toolbar from '../../components/Navigation/Toolbar/Toolbar.js'
+import Toolbar from '../Navigation/Toolbar/Toolbar.js'
 import classes from './Layout.module.css'
 import SideDrawer from '../Navigation/SideDrawer/SideDrawer'
 
