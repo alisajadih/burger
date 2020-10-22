@@ -1,5 +1,4 @@
 import React from 'react';
-
 import classes from './Buildcontrols.module.css';
 import BuildControl from './Buildcontrol/Buildcontrol';
 
@@ -24,7 +23,8 @@ const Buildcontrols = (props) => (
         <button 
             className={classes.OrderButton} 
             disabled={!props.purchaseable}
-            onClick={props.ordered}>ORDER NOW</button>
+            onClick={props.ordered}
+            >ORDER NOW</button>
     </div>
 );
 
