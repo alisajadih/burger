@@ -3,6 +3,7 @@ import axios from '../../../axios-order'
 
 import Button from '../../../components/UI/Button/Button.js'
 import classes from './ContactData.module.css'
+import Input from '../../../components/UI/Input/Input'
 
 class ContactData extends Component {
     state = {
@@ -41,10 +42,10 @@ class ContactData extends Component {
             <div className={classes.ContactData}>
                 <h4> Enter your Contact Data</h4>
                 <form>
-                    <input className={classes.Input} type="text" name="name" placeholder="Your Name"></input>
-                    <input className={classes.Input} type="text" name="email" placeholder="Your Mail"></input>
-                    <input className={classes.Input} type="text" name="street" placeholder="Street"></input>
-                    <input className={classes.Input} type="text" name="postal" placeholder="Postal Code"></input>
+                    <Input inputtype='input' type="text" name="email" placeholder="Your Mail"></Input>
+                    <Input inputtype='input' type="text" name="street" placeholder="Street"></Input>
+                    <Input inputtype='input' type="text" name="postal" placeholder="Postal Code"></Input>
+                    <Input inputtype='input' type="text" name="name" placeholder="Your Name"></Input>
                     <Button btnType="Success" clicked={this.OrderHandle}>ORDER</Button>
                 </form>
             </div>
