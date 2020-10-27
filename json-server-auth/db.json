@@ -1,0 +1,122 @@
+{
+  "ingsInit": {
+    "salad": 0,
+    "bacon": 0,
+    "cheese": 0,
+    "meat": 0
+  },
+  "users": [
+    {
+      "email": "a@a.com",
+      "password": "$2a$10$C/baiImFig0cAi25o2W2LugoAXizgCzjIAc7FGnuNFKrOZAl25Vku",
+      "id": 1
+    },
+    {
+      "email": "b@b.com",
+      "password": "$2a$10$oKw44S9X/R6XJVtTJ43b7ulPSFTLsVrD1s5QvSe8RQUp7um9eI.CG",
+      "id": 2
+    },
+    {
+      "email": "c@c.com",
+      "password": "$2a$10$22NdEm/VnNgyrMjXWrL/5OUxuMimyRGbciQMy9LYJcaXENXDkxWQe",
+      "id": 3
+    }
+  ],
+  "orders": [
+    {
+      "ingredients": {
+        "salad": 1,
+        "bacon": 0,
+        "cheese": 0,
+        "meat": 0
+      },
+      "price": 4.5,
+      "orderData": {
+        "name": "a",
+        "street": "a",
+        "zipCode": "12345",
+        "country": "a",
+        "email": "a@a.com",
+        "deliveryMethod": "fastest"
+      },
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "ingredients": {
+        "salad": 1,
+        "bacon": 1,
+        "cheese": 1,
+        "meat": 1
+      },
+      "price": 6.800000000000001,
+      "orderData": {
+        "name": "b",
+        "street": "b",
+        "zipCode": "12345",
+        "country": "b",
+        "email": "b@b.com",
+        "deliveryMethod": "fastest"
+      },
+      "userId": 2,
+      "id": 2
+    },
+    {
+      "ingredients": {
+        "salad": 0,
+        "bacon": 1,
+        "cheese": 0,
+        "meat": 0
+      },
+      "price": 4.7,
+      "orderData": {
+        "name": "a",
+        "street": "a",
+        "zipCode": "12345",
+        "country": "a",
+        "email": "a@a.com",
+        "deliveryMethod": "fastest"
+      },
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "ingredients": {
+        "salad": 2,
+        "bacon": 1,
+        "cheese": 2,
+        "meat": 1
+      },
+      "price": 7.700000000000001,
+      "orderData": {
+        "name": "b",
+        "street": "b",
+        "zipCode": "12345",
+        "country": "b",
+        "email": "b@b.com",
+        "deliveryMethod": "fastest"
+      },
+      "userId": 2,
+      "id": 4
+    },
+    {
+      "ingredients": {
+        "salad": 3,
+        "bacon": 2,
+        "cheese": 1,
+        "meat": 1
+      },
+      "price": 8.5,
+      "orderData": {
+        "name": "b",
+        "street": "b",
+        "zipCode": "12345",
+        "country": "b",
+        "email": "b@b.com",
+        "deliveryMethod": "fastest"
+      },
+      "userId": 2,
+      "id": 5
+    }
+  ]
+}

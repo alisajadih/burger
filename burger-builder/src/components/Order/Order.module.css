@@ -1,0 +1,18 @@
+.Order {
+    width: 80%;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 10px;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+
+.Ing {
+    border:solid #999 1px;
+    display:inline-block;
+    padding:0 5px;
+    margin-left:8px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px #bbb;
+    font-size:12px;
+}
