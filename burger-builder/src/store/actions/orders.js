@@ -56,7 +56,7 @@ export const fetchOrders = (userId) => {
     axios.get("http://localhost:8000/orders")
       .then(res => {
         let orders = res.data.map(order => { return { ...order } });
-        orders = orders.filter(order => order.userId === userId)
+        orders = orders.filter(order => order.userId === Number(userId))
         setTimeout(() => {
           dispatch(fetchOrdersSuccess(orders))
         }, 1000)
